@@ -17,27 +17,117 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">sadasd</div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg">sadasd</div>
-        </div>
-    </div>
+    	<!----start-wrap---->
+		<!----start-top-header----->
+		<div class="top-header" id="header">
+			<div class="wrap">
+				<div class="top-header-left">
+					<ul>
+						<li><a href="#"><span> </span> Agent Login</a></li>
+						<li><a href="#"><span> </span> Customer Login</a></li>
+						<li><p><span> </span>Not a Member ? </p>&nbsp;<a class="reg" href="#"> Register</a></li>
+						<li><p class="contact-info">Call Us Now :xxx-xxx-xxx</p></li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="top-header-right">
+					<ul>
+						<li><a class="face" href="#"><span> </span></a></li>
+						<li><a class="twit" href="#"><span> </span></a></li>
+						<li><a class="thum" href="#"><span> </span></a></li>
+						<li><a class="pin" href="#"><span> </span></a></li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<!----//End-top-header----->
+    	<!--- start-top-nav---->
+        <div class="top-nav">
+			<ul class="flexy-menu thick orange">
+				<li class="active"><a href="index.php">Home</a></li>
+					<li><a href="destinations.html">Destinations</a>
+						<ul>
+						    <li><a href="#">Dropdown item</a></li>
+							<li><a href="#">Dropdown item</a></li>
+							<li><a href="#">Dropdown item</a>
+									<ul>
+										<li><a href="#">Dropdown item</a></li>
+										<li><a href="#">Dropdown item</a>
+											<ul>
+												<li><a href="#">Dropdown item</a></li>
+												<li><a href="#">Dropdown item</a></li>
+												<li><a href="#">Dropdown item</a></li>
+												<li><a href="#">Dropdown item</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Dropdown item</a></li>
+										<li><a href="#">Dropdown item</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Dropdown item</a></li>
+								<li><a href="#">Dropdown item</a></li>
+							</ul>
+							</li>
+							<li><a href="criuses.html">Criuses</a></li>
+							<li><a href="destinations.html">Specials</a></li>
+							<li><a href="destinations.html">Holidays</a></li>
+							<li><a href="blog.html">Blog</a></li>
+						</ul>
+						<div class="search-box">
+							<div id="sb-search" class="sb-search">
+								<form>
+									<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+									<input class="sb-search-submit" type="submit" value="">
+									<span class="sb-icon-search"> </span>
+								</form>
+							</div>
+						</div>
+						<!----search-scripts---->
+						<script src="web/js/modernizr.custom.js"></script>
+						<script src="web/js/classie.js"></script>
+						<script src="web/js/uisearch.js"></script>
+						<script>
+							new UISearch( document.getElementById( 'sb-search' ) );
+						</script>
+						<!----//search-scripts---->
+				</div>
+				<!--- //End-top-nav---->
+				<div class="clear"> </div>
+			</div>
+			<!---//End-header---->
+		</div>
     <!--Slideshow-->
-    <div class="container-fluid">
-        <div class="w3-content w3-display-container">
-            <img class="mySlides" src="3.jpg" style="width:100%">
-            <img class="mySlides" src="1.jpg" style="width:100%">
-            <img class="mySlides" src="2.jpg" style="width:100%">
-            <img class="mySlides" src="7.jpg" style="width:100%">
-            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="1.jpg" alt="Los Angeles" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+            <img src="2.jpg" alt="Chicago" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+            <img src="3.jpg" alt="New York" width="1100" height="500">
         </div>
     </div>
+    <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+
     <!--search-->
     <div class="container-fluid">
         <nav class="navbar navbar-light bg-light justify-content-between">
@@ -48,6 +138,8 @@
                 </form>
         </nav>
     </div>
+
+
     <!--image-->
     <div class="container-fluid">
         <h2>Responsive Image Gallery</h2>
@@ -89,8 +181,6 @@
     </div>
     <div class="clearfix"></div>
     </div>
-
-
 
 
     <div class="container-fluid">
@@ -141,8 +231,6 @@
         <h2>Responsive Image Gallery</h2>
         <p>Resize the browser window to see the effect.</p>
     </div>
-
-
 
     <!--<div class="containers">-->
         <footer class="page-footer font-small mdb-color pt-4 "> 
@@ -204,7 +292,6 @@
         <!-- Footer Links --> 
         </footer>
         <!-- Footer --> 
-    <!--</div>-->
-    
+        <!--</div>-->
   </body>
 </html>

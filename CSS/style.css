@@ -39,7 +39,8 @@ img{max-width:100%;}
 
 body{
     background:#FFF;
-    text-align: center;
+	text-align: center;
+	font-family: 'Kanit', sans-serif;
 }
 
 img{
@@ -133,10 +134,10 @@ div.gallery {
 	color:#F0F0F0;
 }
 .top-header-left ul li:nth-child(1) a span,.top-header-left ul li:nth-child(2) a span{
-	background:url(agent.png) no-repeat 0px 0px;
+	background:url(img/agent.png) no-repeat 0px 0px;
 }
 .top-header-left ul li  p span{
-	background:url(01.png) no-repeat 0px 0px;
+	background:url(img/01.png) no-repeat 0px 0px;
 }
 .top-header-right{
 	float:right;
@@ -164,25 +165,25 @@ div.gallery {
 	display: block;
 }
 .top-header-right ul li a.face span{
-	background: url(social-icons.png) no-repeat 0px 0px;
+	background: url(img/social-icons.png) no-repeat 0px 0px;
 }
 .top-header-right ul li a.face:hover{
 	background:#3D5A99;
 }
 .top-header-right ul li a.twit span{
-	background: url(social-icons.png) no-repeat -20px 0px;
+	background: url(img/social-icons.png) no-repeat -20px 0px;
 }
 .top-header-right ul li a.twit:hover{
 	background:#359BED;
 }
 .top-header-right ul li a.thum span{
-	background:url(social-icons.png) no-repeat -38px 0px;
+	background:url(img/social-icons.png) no-repeat -38px 0px;
 }
 .top-header-right ul li a.thum:hover{
 	background:#3B5876;
 }
 .top-header-right ul li a.pin span{
-	background:url(social-icons.png) no-repeat -56px 0px;
+	background:url(img/social-icons.png) no-repeat -56px 0px;
 }
 .top-header-right ul li a.pin:hover{
 	background:#CC1D24;
@@ -284,7 +285,7 @@ div.gallery {
 	float:left;
 	clear:both
 	box-sizing:border-box;
-	-moz-box-sizing:border-box;
+	-moz-box-sizing:border-box
 	-webkit-box-sizing:border-box;
 	-webkit-transition:color .2s linear,background .2s linear;
 	-moz-transition:color .2s linear,background .2s linear;
@@ -589,7 +590,7 @@ input[type="search"].sb-search-input {
 
 .sb-icon-search {
 	color: #fff;
-	background: url(search-icon.png) no-repeat 0px 1px;
+	background: url(img/search-icon.png) no-repeat 0px 1px;
 	z-index: 90;
 	font-size: 22px;
 	speak: none;
@@ -609,7 +610,7 @@ input[type="search"].sb-search-input {
 
 .sb-search.sb-search-open .sb-icon-search,
 .no-js .sb-search .sb-icon-search {
-	background: url(search-icon.png) no-repeat 0px 1px;
+	background: url(img/search-icon.png) no-repeat 0px 1px;
 	color: #fff;
 	z-index: 11;
 }

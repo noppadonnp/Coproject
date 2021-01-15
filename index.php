@@ -11,10 +11,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script language="JavaScript" SRC="JS/script.js"></script>
+    <script language="JavaScript" SRC="JS/textslider.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel = "stylesheet" type = "text/css" href = "CSS/style.css" >
+    <link rel = "stylesheet" type = "text/css" href = "CSS/style.css">
+    <link rel = "stylesheet" type = "text/css" href = "CSS/search.css">
+    <link rel = "stylesheet" type = "text/css" href = "CSS/textslider.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
   </head>
   <body>
     	<!----start-wrap---->
@@ -109,13 +113,13 @@
     <!-- The slideshow -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="1.jpg" alt="Los Angeles" width="1100" height="500">
+            <img src="img/1.jpg" alt="Los Angeles" width="1100" height="500">
         </div>
         <div class="carousel-item">
-            <img src="2.jpg" alt="Chicago" width="1100" height="500">
+            <img src="img/2.jpg" alt="Chicago" width="1100" height="500">
         </div>
         <div class="carousel-item">
-            <img src="3.jpg" alt="New York" width="1100" height="500">
+            <img src="img/3.jpg" alt="New York" width="1100" height="500">
         </div>
     </div>
     <!-- Left and right controls -->
@@ -129,25 +133,49 @@
 
 
     <!--search-->
-    <div class="container-fluid">
-        <nav class="navbar navbar-light bg-light justify-content-between">
-            <a class="navbar-brand">Navbar</a>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-MedSpringGreen my-2 my-sm-0" type="submit">Search</button>
-                </form>
-        </nav>
+    <section class="search-sec">
+    <div class="container">
+        <form action="#" method="post" novalidate="novalidate">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <input type="text" class="form-control search-slt" placeholder="Enter Pickup City">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <input type="text" class="form-control search-slt" placeholder="Enter Drop City">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                <option>Select Vehicle</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <button type="button" class="btn btn-danger wrn-btn">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
+    </section>
+
 
 
     <!--image-->
     <div class="container-fluid">
-        <h2>Responsive Image Gallery</h2>
-        <p>Resize the browser window to see the effect.</p>
+        <h2>SPECIAL OFFERS</h2>
+        <p>Best 2014 packages where people love to stay!</p>
     <div class="responsive">
         <div class="gallery">
-            <a target="_blank" href="1.jpg">
-            <img src="1.jpg" alt="Cinque Terre" width="600" height="400">
+            <a target="_blank" href="img/1.jpg">
+            <img src="img/1.jpg" alt="Cinque Terre" width="600" height="400">
             </a>
             <div class="desc">Add a description of the image here</div>
         </div>
@@ -155,8 +183,8 @@
 
     <div class="responsive">
         <div class="gallery">
-            <a target="_blank" href="2.jpg">
-            <img src="2.jpg" alt="Forest" width="600" height="400">
+            <a target="_blank" href="img/2.jpg">
+            <img src="img/2.jpg" alt="Forest" width="600" height="400">
             </a>
             <div class="desc">Add a description of the image here</div>
         </div>
@@ -164,8 +192,8 @@
 
     <div class="responsive">
         <div class="gallery">
-            <a target="_blank" href="3.jpg">
-            <img src="3.jpg" alt="Northern Lights" width="600" height="400">
+            <a target="_blank" href="img/3.jpg">
+            <img src="img/3.jpg" alt="Northern Lights" width="600" height="400">
             </a>
             <div class="desc">Add a description of the image here</div>
         </div>
@@ -173,8 +201,8 @@
 
     <div class="responsive">
         <div class="gallery">
-            <a target="_blank" href="7.jpg">
-            <img src="7.jpg" alt="Mountains" width="600" height="400">
+            <a target="_blank" href="img/7.jpg">
+            <img src="img/7.jpg" alt="Mountains" width="600" height="400">
             </a>
             <div class="desc">Add a description of the image here</div>
         </div>
@@ -189,8 +217,8 @@
     <div class="contaner">
         <div class="responsive">
             <div class="gallery">
-                <a target="_blank" href="1.jpg">
-                <img src="1.jpg" alt="Cinque Terre" width="600" height="400">
+                <a target="_blank" href="img/1.jpg">
+                <img src="img/1.jpg" alt="Cinque Terre" width="600" height="400">
                 </a>
                 <div class="desc">Add a description of the image here</div>
             </div>
@@ -198,8 +226,8 @@
 
         <div class="responsive">
             <div class="gallery">
-                <a target="_blank" href="2.jpg">
-                <img src="2.jpg" alt="Forest" width="600" height="400">
+                <a target="_blank" href="img/2.jpg">
+                <img src="img/2.jpg" alt="Forest" width="600" height="400">
                 </a>
                 <div class="desc">Add a description of the image here</div>
             </div>
@@ -207,8 +235,8 @@
 
         <div class="responsive">
             <div class="gallery">
-                <a target="_blank" href="3.jpg">
-                <img src="3.jpg" alt="Northern Lights" width="600" height="400">
+                <a target="_blank" href="img/3.jpg">
+                <img src="img/3.jpg" alt="Northern Lights" width="600" height="400">
                 </a>
                 <div class="desc">Add a description of the image here</div>
             </div>
@@ -216,8 +244,8 @@
 
         <div class="responsive">
             <div class="gallery">
-                <a target="_blank" href="7.jpg">
-                <img src="7.jpg" alt="Mountains" width="600" height="400">
+                <a target="_blank" href="img/7.jpg">
+                <img src="img/7.jpg" alt="Mountains" width="600" height="400">
                 </a>
                 <div class="desc">Add a description of the image here</div>
             </div>
@@ -226,10 +254,22 @@
         </div>
     </div>
 
-
-    <div class="contaner-fluid">
-        <h2>Responsive Image Gallery</h2>
-        <p>Resize the browser window to see the effect.</p>
+    <!--textslider-->
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+            <p class="author">- John Keats</p>
+        </div>
+    <div class="mySlides">
+        <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+        <p class="author">- Ernest Hemingway</p>
+    </div>
+    <div class="mySlides">
+        <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+        <p class="author">- Thomas A. Edison</p>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
     </div>
 
     <!--<div class="containers">-->
@@ -276,7 +316,7 @@
                         <p> <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
                     </div>
         <!-- Grid column --> 
-                    </div>
+                    </div> 
         <!-- Footer links -->
                     <hr>
         <!-- Grid row -->

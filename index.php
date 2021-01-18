@@ -12,25 +12,32 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script language="JavaScript" SRC="JS/script.js"></script>
     <script language="JavaScript" SRC="JS/textslider.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel = "stylesheet" type = "text/css" href = "CSS/style.css">
     <link rel = "stylesheet" type = "text/css" href = "CSS/search.css">
     <link rel = "stylesheet" type = "text/css" href = "CSS/textslider.css">
+    <link rel=  "stylesheet" type = "text/css" href="CSS/footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
   </head>
   <body>
     	<!----start-wrap---->
-		<!----start-top-header----->
+			<!----start-top-header----->
 		<div class="top-header" id="header">
 			<div class="wrap">
 				<div class="top-header-left">
 					<ul>
 						<li><a href="#"><span> </span> Agent Login</a></li>
-						<li><a href="#"><span> </span> Customer Login</a></li>
+						<li><a href="#"><span> </span> Agent Login</a></li>
 						<li><p><span> </span>Not a Member ? </p>&nbsp;<a class="reg" href="#"> Register</a></li>
-						<li><p class="contact-info">Call Us Now :xxx-xxx-xxx</p></li>
+						<li><p class="contact-info">Call Us Now :815-123-4567</p></li>
 						<div class="clear"> </div>
 					</ul>
 				</div>
@@ -45,17 +52,25 @@
 				</div>
 				<div class="clear"> </div>
 			</div>
-		</div>
-		<!----//End-top-header----->
-    	<!--- start-top-nav---->
-        <div class="top-nav">
-			<ul class="flexy-menu thick orange">
-				<li class="active"><a href="index.php">Home</a></li>
-					<li><a href="destinations.html">Destinations</a>
-						<ul>
-						    <li><a href="#">Dropdown item</a></li>
-							<li><a href="#">Dropdown item</a></li>
-							<li><a href="#">Dropdown item</a>
+			</div>
+			<!----//End-top-header----->
+			<!---start-header---->
+			<div class="header">
+				<div class="wrap">
+				<!--- start-logo---->
+				<div class="logo">
+					<a href="index.php"><img src="img/logo.png" title="voyage" /></a>
+				</div>
+				<!--- //End-logo---->
+				<!--- start-top-nav---->
+				<div class="top-nav">
+						<ul class="flexy-menu thick orange">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="destinations.html">Destinations</a>
+								<ul>
+								<li><a href="#">Dropdown item</a></li>
+								<li><a href="#">Dropdown item</a></li>
+								<li><a href="#">Dropdown item</a>
 									<ul>
 										<li><a href="#">Dropdown item</a></li>
 										<li><a href="#">Dropdown item</a>
@@ -101,7 +116,8 @@
 				<div class="clear"> </div>
 			</div>
 			<!---//End-header---->
-		</div>
+        </div>
+        
     <!--Slideshow-->
     <div id="demo" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -130,7 +146,6 @@
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
-
 
     <!--search-->
     <section class="search-sec">
@@ -165,8 +180,6 @@
         </form>
     </div>
     </section>
-
-
 
     <!--image-->
     <div class="container-fluid">
@@ -272,66 +285,69 @@
     <a class="next" onclick="plusSlides(1)">❯</a>
     </div>
 
-    <!--<div class="containers">-->
-        <footer class="page-footer font-small mdb-color pt-4 "> 
-        <!-- Footer Links -->
-            <div class="container text-center text-md-left "> 
-        <!-- Footer links -->
-                <div class="row text-center text-md-left mt-3 pb-3"> 
-        <!-- Grid column -->
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">เกี่ยวกับเรา</h6>
-                        <p>เป็นเว็บไซต์ที่พัฒนาขึ้นเพื่อการศึกษา <br>
-                        ในรายวิชา 934-303 Web Programming.</p>
-                    </div>
-        <!-- Grid column -->
-                        <hr class="w-100 clearfix d-md-none">
-        <!-- Grid column -->
-                        <hr class="w-100 clearfix d-md-none">
-        <!-- Grid column -->
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">บริการด้านการเงิน</h6>
-                        <p> <a href="#">วิธีการสั่งซื้อ</a> </p>
-                        <p> <a href="#">วิธีการชำระเงิน</a> </p>
-                        <p> <a href="#">แจ้งชำระสินค้า</a> </p>
-                        <p> <a href="#">ติดตามสถานะ</a> </p>
-                    </div>
-        <!-- Grid column -->
-                        <hr class="w-100 clearfix d-md-none">
-        <!-- Grid column -->
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                        <p> <i class="fas fa-home mr-3"></i> 31 หมู่ 6 ต.มะขามเตี้ย อ.เมือง จ.สุราษฎร์ธานี 84000 </p>
-                        <p> <i class="fas fa-envelope mr-3"></i> abcd@gmail.com</p>
-                        <p> <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                        <p> <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-                    </div>
-                    <hr class="w-100 clearfix d-md-none">
-        <!-- Grid column -->
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                        <p> <i class="fas fa-home mr-3"></i> 31 หมู่ 6 ต.มะขามเตี้ย อ.เมือง จ.สุราษฎร์ธานี 84000 </p>
-                        <p> <i class="fas fa-envelope mr-3"></i> abcd@gmail.com</p>
-                        <p> <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                        <p> <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-                    </div>
-        <!-- Grid column --> 
-                    </div> 
-        <!-- Footer links -->
-                    <hr>
-        <!-- Grid row -->
-                    <div class="row d-flex align-items-center"> 
-        <!-- Grid column -->
-                    <div class="col-md-7 col-lg-8"> 
-        <!--Copyright-->
-                        <p class="text-center text-md-left">© 6040011008 , 6040011016: <strong> WEB PROGRAMMING</strong> </a> </p>
-                    </div>      
-                </div>
-        <!-- Grid row --> 
+    <footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Heading 1</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">Payment Center</a></li>
+            <li><a href="#">Contact Directory</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">News and Updates</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Heading 2</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Website Tutorial</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Webmaster</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Heading 3</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Parks and Recreation</a></li>
+            <li><a href="#">Public Works</a></li>
+            <li><a href="#">Police Department</a></li>
+            <li><a href="#">Fire</a></li>
+            <li><a href="#">Mayor and City Council</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    	        <div class="col-md-3">
+    		        <h4>Follow Us</h4>
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>				
+		        </div>
             </div>
-        <!-- Footer Links --> 
-        </footer>
-        <!-- Footer --> 
-        <!--</div>-->
+	        <div class="row">
+		        <div class="col-md-12 copy">
+			        <p class="text-center">&copy; Copyright 2018 - Company Name.  All rights reserved.</p>
+		        </div>
+	        </div>
+        </div>
+    </div>
+    </footer>
   </body>
 </html>

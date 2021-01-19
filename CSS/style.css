@@ -37,7 +37,7 @@ img{max-width:100%;}
     padding: 1cm 3.5cm;
 } */
 
-body{
+body,h2,p{
     background:#FFF;
 	text-align: center;
 	font-family: 'Kanit', sans-serif;

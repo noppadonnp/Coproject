@@ -182,6 +182,7 @@
     </section>
 
     <!--image-->
+    <!--รูปบล็อก1-->
     <div class="container-fluid">
         <h2>SPECIAL OFFERS</h2>
         <p>Best 2014 packages where people love to stay!</p>
@@ -223,7 +224,7 @@
     <div class="clearfix"></div>
     </div>
 
-
+    <!--รูปบล็อก2-->
     <div class="container-fluid">
         <h2>Responsive Image Gallery</h2>
         <p>Resize the browser window to see the effect.</p>

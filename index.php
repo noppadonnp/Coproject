@@ -21,6 +21,10 @@
     <link rel = "stylesheet" type = "text/css" href = "CSS/search.css">
     <link rel = "stylesheet" type = "text/css" href = "CSS/textslider.css">
     <link rel=  "stylesheet" type = "text/css" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/jquery-ui">
+    <link rel="stylesheet" href="CSS/jquery.bxslider">
+    <link rel="stylesheet" href="CSS/fwslider">
+    <link rel="stylesheet" href="CSS/flexslider">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
@@ -127,17 +131,17 @@
             <li data-target="#demo" data-slide-to="2"></li>
         </ul>
     <!-- The slideshow -->
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="img/1.jpg" alt="Los Angeles" width="1100" height="500">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/1.jpg" alt="Los Angeles" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="img/2.jpg" alt="Chicago" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="img/3.jpg" alt="New York" width="1100" height="500">
+            </div>
         </div>
-        <div class="carousel-item">
-            <img src="img/2.jpg" alt="Chicago" width="1100" height="500">
-        </div>
-        <div class="carousel-item">
-            <img src="img/3.jpg" alt="New York" width="1100" height="500">
-        </div>
-    </div>
     <!-- Left and right controls -->
         <a class="carousel-control-prev" href="#demo" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
@@ -227,128 +231,181 @@
     <!--รูปบล็อก2-->
     <div class="container-fluid">
         <h2>Responsive Image Gallery</h2>
-        <p>Resize the browser window to see the effect.</p>
-    <div class="contaner">
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="img/1.jpg">
-                <img src="img/1.jpg" alt="Cinque Terre" width="600" height="400">
-                </a>
-                <div class="desc">Add a description of the image here</div>
+        <span>Resize the browser window to see the effect.</span>
+        <div class="contaner">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/1.jpg">
+                    <img src="img/1.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
             </div>
-        </div>
 
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="img/2.jpg">
-                <img src="img/2.jpg" alt="Forest" width="600" height="400">
-                </a>
-                <div class="desc">Add a description of the image here</div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/2.jpg">
+                        <img src="img/2.jpg" alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
             </div>
-        </div>
 
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="img/3.jpg">
-                <img src="img/3.jpg" alt="Northern Lights" width="600" height="400">
-                </a>
-                <div class="desc">Add a description of the image here</div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/3.jpg">
+                        <img src="img/3.jpg" alt="Northern Lights" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
             </div>
-        </div>
 
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="img/7.jpg">
-                <img src="img/7.jpg" alt="Mountains" width="600" height="400">
-                </a>
-                <div class="desc">Add a description of the image here</div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/7.jpg">
+                        <img src="img/7.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            <div class="clearfix"></div>
         </div>
     </div>
 
     <!--textslider-->
-    <div class="slideshow-container">
-        <div class="mySlides">
-            <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
-            <p class="author">- John Keats</p>
-        </div>
-    <div class="mySlides">
-        <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
-        <p class="author">- Ernest Hemingway</p>
-    </div>
-    <div class="mySlides">
-        <q>I have not failed. I've just found 10,000 ways that won't work.</q>
-        <p class="author">- Thomas A. Edison</p>
-    </div>
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
-    </div>
+		<!----start-clients---->
+		<div class="clients">
+			<div class="client-head">
+				<h2>Happy Clients</h2>
+				<span>what customer say about us and why love our services!</span>
+			</div>
+			<div class="client-grids">
+				<ul class="bxslider">
+				  <li>
+				  	<p>Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</p>
+				  	<a href="#">Client Name</a>
+				  	<span>United States</span>
+				  	<label> </label>
+				  </li>
+				  <li>
+				  	<p>Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</p>
+				  	<a href="#">Client Name</a>
+				  	<span>United States</span>
+				  	<label> </label>
+				  </li>
+				  <li>
+				  	<p>Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</p>
+				  	<a href="#">Client Name</a>
+				  	<span>United States</span>
+				  	<label> </label>
+				  </li>
+				  <li>
+				  	<p>Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</p>
+				  	<a href="#">Client Name</a>
+				  	<span>United States</span>
+				  	<label> </label>
+				  </li>
+				  <li>
+				  	<p>Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</p>
+				  	<a href="#">Client Name</a>
+				  	<span>United States</span>
+				  	<label> </label>
+				  </li>
+				</ul>
+			</div>
+		</div>
+		<!----//End-clients---->
 
-    <footer class="mainfooter" role="contentinfo">
-  <div class="footer-middle">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-sm-6">
-        <!--Column1-->
-        <div class="footer-pad">
-          <h4>Heading 1</h4>
-          <ul class="list-unstyled">
-            <li><a href="#"></a></li>
-            <li><a href="#">Payment Center</a></li>
-            <li><a href="#">Contact Directory</a></li>
-            <li><a href="#">Forms</a></li>
-            <li><a href="#">News and Updates</a></li>
-            <li><a href="#">FAQs</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <!--Column1-->
-        <div class="footer-pad">
-          <h4>Heading 2</h4>
-          <ul class="list-unstyled">
-            <li><a href="#">Website Tutorial</a></li>
-            <li><a href="#">Accessibility</a></li>
-            <li><a href="#">Disclaimer</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Webmaster</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <!--Column1-->
-        <div class="footer-pad">
-          <h4>Heading 3</h4>
-          <ul class="list-unstyled">
-            <li><a href="#">Parks and Recreation</a></li>
-            <li><a href="#">Public Works</a></li>
-            <li><a href="#">Police Department</a></li>
-            <li><a href="#">Fire</a></li>
-            <li><a href="#">Mayor and City Council</a></li>
-            <li>
-              <a href="#"></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    	        <div class="col-md-3">
-    		        <h4>Follow Us</h4>
-                    <ul class="social-network social-circle">
-                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>				
-		        </div>
-            </div>
-	        <div class="row">
-		        <div class="col-md-12 copy">
-			        <p class="text-center">&copy; Copyright 2018 - Company Name.  All rights reserved.</p>
-		        </div>
-	        </div>
-        </div>
-    </div>
-    </footer>
+    <!--footer-->
+		<!----start-footer---->
+		<div class="footer">
+			<div class="wrap">
+			<div class="footer-grids">
+				<div class="footer-grid Newsletter">
+					<h3>News letter </h3>
+					<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.</p>
+					<form>
+						<input type="text" placeholder="Subscribes.." /> <input type="submit" value="GO" />
+					</form>
+				</div>
+				<div class="footer-grid Newsletter">
+					<h3>Latest News </h3>
+					<div class="news">
+						<div class="news-pic">
+							<img src="img/f01.jpg" title="news-pic1" /> 
+						</div>
+						<div class="news-info">
+							<a href="#">Postformat Gallery: Multiple images</a>
+							<span>December 12, 2012 - 9:11 pm</span>
+						</div>
+						<div class="clear"> </div>
+					</div>
+					<div class="news">
+						<div class="news-pic">
+							<img src="img/f01.jpg" title="news-pic1" /> 
+						</div>
+						<div class="news-info">
+							<a href="#">Postformat Gallery: Multiple images</a>
+							<span>December 12, 2012 - 9:11 pm</span>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<div class="footer-grid tags">
+					<h3>Tags</h3>
+					<ul>
+						<li><a href="#">Agent login</a></li>
+						<li><a href="#">Customer Login</a></li>
+						<li><a href="#">Not a Member?</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">New Horizons</a></li>
+						<li><a href="#">Lanscape</a></li>
+						<li><a href="#">Tags</a></li>
+						<li><a href="#">Nice</a></li>
+						<li><a href="#">Some</a></li>
+						<li><a href="#">Portrait</a></li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="footer-grid address">
+					<h3>Address </h3>
+					<div class="address-info">
+						<span>DieSachbearbeiter Schonhauser </span>
+						<span>Allee 167c,10435 Berlin Germany</span>
+						<span><i>E-mail:</i><a href="mailto:moin@blindtextgenerator.de">moin@blindtextgenerator.de</a></span>
+					</div>
+					<div class="footer-social-icons">
+						<ul>
+							<li><a class="face1 simptip-position-bottom simptip-movable" data-tooltip="facebook" href="#"><span> </span></a></li>
+							<li><a class="twit1 simptip-position-bottom simptip-movable" data-tooltip="twitter" href="#"><span> </span></a></li>
+							<li><a class="tub1 simptip-position-bottom simptip-movable" data-tooltip="tumblr" href="#"><span> </span></a></li>
+							<li><a class="pin1 simptip-position-bottom simptip-movable" data-tooltip="pinterest" href="#"><span> </span></a></li>
+							<div class="clear"> </div>
+						</ul>
+					</div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			</div>
+		</div>
+		<!----//End-footer---->
+		<!---start-subfooter---->
+		<div class="subfooter">
+			<div class="wrap">
+				<ul>
+					<li><a href="#">Home</a><span>::</span></li>
+					<li><a href="#">Destinations</a><span>::</span></li>
+					<li><a href="#">Criuses</a><span>::</span></li>
+					<li><a href="#">Specils</a><span>::</span></li>
+					<li><a href="#">Holidays</a><span>::</span></li>
+					<li><a href="#">Blog</a><span>::</span></li>
+					<li><a href="#">Contact Us</a></li>
+					<div class="clear"> </div>
+				</ul>
+				<p class="copy-right">Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+				<a class="to-top" href="#header"><span> </span> </a>
+			</div>
+		</div>
+		<!---//End-subfooter---->
+		<!----//End-wrap---->
   </body>
 </html>

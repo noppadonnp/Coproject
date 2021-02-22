@@ -15,6 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel = "stylesheet" type = "text/css" href = "CSS/style.css">
@@ -108,10 +109,10 @@
 							</div>
 						</div>
 						<!----search-scripts---->
-						<script src="web/js/modernizr.custom.js"></script>
-						<script src="web/js/classie.js"></script>
-						<script src="web/js/uisearch.js"></script>
-						<script>
+						<script src="JS/modernizr.custom.js"></script>
+						<script src="JS/classie.js"></script>
+						<script src="JS/uisearch.js"></script>
+						<script>	
 							new UISearch( document.getElementById( 'sb-search' ) );
 						</script>
 						<!----//search-scripts---->
@@ -133,13 +134,13 @@
     <!-- The slideshow -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/1.jpg" alt="Los Angeles" width="1100" height="500">
+                <img src="img/palace-530055_1920.jpg" alt="Los Angeles" width="1100" height="500">
             </div>
             <div class="carousel-item">
-                <img src="img/2.jpg" alt="Chicago" width="1100" height="500">
+                <img src="img/bridge-336475_1920.jpg" alt="Chicago" width="1100" height="500">
             </div>
             <div class="carousel-item">
-                <img src="img/3.jpg" alt="New York" width="1100" height="500">
+                <img src="img/golden-gate-bridge-388917_1920.jpg" alt="New York" width="1100" height="500">
             </div>
         </div>
     <!-- Left and right controls -->
@@ -184,16 +185,15 @@
         </form>
     </div>
     </section>
-
     <!--image-->
     <!--รูปบล็อก1-->
-    <div class="container-fluid">
-        <h2>SPECIAL OFFERS</h2>
+    <!-- <div class="container-fluid"> -->
+        <h2 style="margin-top: -65px;">SPECIAL OFFERS</h2>
         <p>Best 2014 packages where people love to stay!</p>
     <div class="responsive">
         <div class="gallery">
-            <a target="_blank" href="img/1.jpg">
-            <img src="img/1.jpg" alt="Cinque Terre" width="600" height="400">
+            <a target="_blank" href="img/palace-530055_1920.jpg">
+            <img src="img/palace-530055_1920.jpg" alt="Cinque Terre" width="600" height="400">
             </a>
             <div class="desc">Add a description of the image here</div>
         </div>
@@ -201,8 +201,8 @@
 
     <div class="responsive">
         <div class="gallery">
-            <a target="_blank" href="img/2.jpg">
-            <img src="img/2.jpg" alt="Forest" width="600" height="400">
+            <a target="_blank" href="img/bridge-336475_1920.jpg">
+            <img src="img/bridge-336475_1920.jpg" alt="Forest" width="600" height="400">
             </a>
             <div class="desc">Add a description of the image here</div>
         </div>
@@ -210,8 +210,8 @@
 
     <div class="responsive">
         <div class="gallery">
-            <a target="_blank" href="img/3.jpg">
-            <img src="img/3.jpg" alt="Northern Lights" width="600" height="400">
+            <a target="_blank" href="img/golden-gate-bridge-388917_1920.jpg">
+            <img src="img/golden-gate-bridge-388917_1920.jpg" alt="Northern Lights" width="600" height="400">
             </a>
             <div class="desc">Add a description of the image here</div>
         </div>
@@ -219,24 +219,25 @@
 
     <div class="responsive">
         <div class="gallery">
-            <a target="_blank" href="img/7.jpg">
-            <img src="img/7.jpg" alt="Mountains" width="600" height="400">
+            <a target="_blank" href="img/tower-bridge-441853_1920.jpg">
+            <img src="img/tower-bridge-441853_1920.jpg" alt="Mountains" width="600" height="400">
             </a>
             <div class="desc">Add a description of the image here</div>
         </div>
     </div>
     <div class="clearfix"></div>
-    </div>
+    <!-- </div> -->
 
+	<br><br>
     <!--รูปบล็อก2-->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid"> -->
         <h2>Responsive Image Gallery</h2>
-        <span>Resize the browser window to see the effect.</span>
+        <p>Resize the browser window to see the effect.</p>
         <div class="contaner">
             <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" href="img/1.jpg">
-                    <img src="img/1.jpg" alt="Cinque Terre" width="600" height="400">
+                    <a target="_blank" href="img/architecture-1853687_1920.jpg">
+                    <img src="img/architecture-1853687_1920.jpg" alt="Cinque Terre" width="600" height="400">
                     </a>
                     <div class="desc">Add a description of the image here</div>
                 </div>
@@ -244,8 +245,8 @@
 
             <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" href="img/2.jpg">
-                        <img src="img/2.jpg" alt="Forest" width="600" height="400">
+                    <a target="_blank" href="img/chapel-5878656_1920.jpg">
+                        <img src="img/chapel-5878656_1920.jpg" alt="Forest" width="600" height="400">
                     </a>
                     <div class="desc">Add a description of the image here</div>
                 </div>
@@ -253,8 +254,8 @@
 
             <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" href="img/3.jpg">
-                        <img src="img/3.jpg" alt="Northern Lights" width="600" height="400">
+                    <a target="_blank" href="img/temple-5909803_1920.jpg">
+                        <img src="img/temple-5909803_1920.jpg" alt="Northern Lights" width="600" height="400">
                     </a>
                     <div class="desc">Add a description of the image here</div>
                 </div>
@@ -262,18 +263,18 @@
 
             <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" href="img/7.jpg">
-                        <img src="img/7.jpg" alt="Mountains" width="600" height="400">
+                    <a target="_blank" href="img/winter-5914653_1920.jpg">
+                        <img src="img/winter-5914653_1920.jpg" alt="Mountains" width="600" height="400">
                     </a>
                     <div class="desc">Add a description of the image here</div>
                 </div>
             <div class="clearfix"></div>
-        </div>
-    </div>
-
+        </div>	
+    <!-- </div> -->
+<br><br>
     <!--textslider-->
 		<!----start-clients---->
-		<div class="clients">
+		<!-- <div class="clients">
 			<div class="client-head">
 				<h2>Happy Clients</h2>
 				<span>what customer say about us and why love our services!</span>
@@ -312,8 +313,70 @@
 				  </li>
 				</ul>
 			</div>
-		</div>
+		</div> -->
 		<!----//End-clients---->
+
+		<div class="slideshow-container">
+			<div class="mySlides">
+				<q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+				<p class="author">- John Keats</p>
+			</div>
+
+		<div class="mySlides">
+			<q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+			<p class="author">- Ernest Hemingway</p>
+		</div>
+
+		<div class="mySlides">
+			<q>I have not failed. I've just found 10,000 ways that won't work.</q>
+			<p class="author">- Thomas A. Edison</p>
+		</div>
+
+		<div class="mySlides">
+			<q>'Don't Call Me.</q>
+			<p class="author">- Thomas A.</p>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
+
+		</div>
+
+		<div class="dot-container" style="margin-bottom: 10px;">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
+			<span class="dot" onclick="currentSlide(4)"></span> 
+		</div>
+
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		if (n > slides.length) {slideIndex = 1}    
+		if (n < 1) {slideIndex = slides.length}
+		for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+		}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+		slides[slideIndex-1].style.display = "block";  
+		dots[slideIndex-1].className += " active";
+		}   
+	</script>
 
     <!--footer-->
 		<!----start-footer---->
@@ -369,9 +432,9 @@
 				<div class="footer-grid address">
 					<h3>Address </h3>
 					<div class="address-info">
-						<span>DieSachbearbeiter Schonhauser </span>
+						<span>DieSachbearbeiter Schonhauser</span>
 						<span>Allee 167c,10435 Berlin Germany</span>
-						<span><i>E-mail:</i><a href="mailto:moin@blindtextgenerator.de">moin@blindtextgenerator.de</a></span>
+						<span><i>E-mail:</i><a href="mailto:moin@blindtextgenerator.de">xxx12312213@gggg.com</a></span>
 					</div>
 					<div class="footer-social-icons">
 						<ul>
@@ -401,7 +464,6 @@
 					<li><a href="#">Contact Us</a></li>
 					<div class="clear"> </div>
 				</ul>
-				<p class="copy-right">Template by <a href="http://w3layouts.com/">W3layouts</a></p>
 				<a class="to-top" href="#header"><span> </span> </a>
 			</div>
 		</div>
